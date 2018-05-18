@@ -512,3 +512,13 @@ a .infobox-image h3, a .infobox-image h4 {
   padding-bottom: 2em;
   margin-left: -10px;
 }
+
+@media (max-width: 940px) {
+  .box-social{
+    flex-basis:inherit;
+    justify-content: center;
+  }
+  .socials {
+    flex-wrap: wrap;
+  }
+}
